@@ -7,5 +7,7 @@ namespace Exam1.Models
 {
     public class Movie
     {
+        public string Id { get; set; }
+        public int Ratio { get; set; }
     }
 }
